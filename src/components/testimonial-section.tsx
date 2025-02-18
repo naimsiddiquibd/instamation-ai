@@ -19,8 +19,8 @@ export function TestimonialSection() {
             ))}
           </div>
           <blockquote className="max-w-2xl text-xl md:text-xl font-medium leading-relaxed">
-            "Instamation has transformed our Instagram engagement. The automation is seamless and has significantly
-            increased our response rate. It's like having a dedicated team working 24/7!"
+            &quot;Instamation has transformed our Instagram engagement. The automation is seamless and has significantly
+            increased our response rate. It&apos;s like having a dedicated team working 24/7!&quot;
           </blockquote>
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
             <Image
@@ -40,4 +40,3 @@ export function TestimonialSection() {
     </section>
   )
 }
-

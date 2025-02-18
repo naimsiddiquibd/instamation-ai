@@ -4,7 +4,7 @@ import { Facebook, Twitter, Instagram, Youtube } from "lucide-react"
 export function SiteFooter() {
   return (
     <footer className="bg-gray-900 text-gray-300 w-full">
-      <div className="container px-4 md:px-6 py-12 md:py-16 max-w-7xl mx-auto">
+      <div className="container px-4 md:px-6 py-12 md:pb-8 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-white">Resources</h3>
@@ -54,7 +54,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-gray-700 text-center text-sm text-gray-400">
-          © 2024 Instamation. All rights reserved.
+          © 2025 Instamation. Built with ❤️ by <a href="https://naimsiddiqui.vercel.app/">Nam Siddiqui</a>
         </div>
       </div>
     </footer>
