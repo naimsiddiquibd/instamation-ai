@@ -26,7 +26,7 @@ export function SiteHeader() {
         isScrolled ? "bg-blue-950 opacity-90 shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="container flex h-16 items-center justify-between max-w-7xl mx-auto">
+      <div className="container px-4 flex h-16 items-center justify-between max-w-7xl mx-auto">
         <Link href="/" className="flex items-center space-x-2">
           <span
             className={`text-xl font-bold typing-animation ${
@@ -78,7 +78,7 @@ export function SiteHeader() {
         {/* Mobile Menu */}
         <Sheet>
           <SheetTrigger asChild className="md:hidden">
-            <Button variant="ghost" size="sm" className={`px-2 ${isScrolled ? "text-blue-900" : "text-white"}`}>
+            <Button variant="ghost" size="lg" className={`px-0 ${isScrolled ? "text-blue-900" : "text-white"}`}>
               <Menu className="h-5 w-5" />
               <span className="sr-only">Toggle menu</span>
             </Button>

@@ -54,7 +54,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-gray-700 text-center text-sm text-gray-400">
-          © 2025 Instamation. Built with ❤️ by <a href="https://naimsiddiqui.vercel.app/">Nam Siddiqui</a>
+          © 2025 Instamation ❤️ Design & Developed by <a className="text-gray-400 font-semibold" href="https://naimsiddiqui.vercel.app/">Nam Siddiqui</a>
         </div>
       </div>
     </footer>
