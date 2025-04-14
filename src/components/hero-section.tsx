@@ -19,7 +19,7 @@ export function HeroSection() {
             <Button
               variant="outline"
               size="lg"
-              className="w-full sm:w-auto text-gray-800"
+              className="w-full sm:w-auto text-gray-300"
             >
               Learn More
             </Button>
