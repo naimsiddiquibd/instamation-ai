@@ -48,7 +48,7 @@ model Integrations {
 }
 
 model Automation {
-    id          String     @id @default(dbgenerated("gen_random_wuid()")) @db.Uuid
+    id          String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
     name        String     @default("Untitled")
     createdAt   DateTime   @default(now())
     active      Boolean    @default(false)
